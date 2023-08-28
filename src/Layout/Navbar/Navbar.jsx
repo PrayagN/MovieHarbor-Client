@@ -37,6 +37,9 @@ function Navbar() {
           </div>
 
           <div className="col-span-3 font-medium text-sm hidden xl:gap-10 2xl:gap-20 justify-between lg:flex xl:justify-center items-center">
+          <NavLink to="/" className={Hover}>
+              Home
+            </NavLink>
             <NavLink to="/movies" className={Hover}>
               Movies
             </NavLink>

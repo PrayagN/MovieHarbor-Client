@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import Titles from "../Titles";
 import { BsBookmarkStarFill, BsCaretLeftFill,BsCaretRightFill } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";

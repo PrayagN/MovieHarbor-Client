@@ -1,0 +1,20 @@
+export const categoriesData =[
+    {
+        title:"Action"
+    },
+    {
+        title:"Horror"
+    },
+    {
+        title:"Romantic"
+    },
+    {
+        title:"Comedy"
+    },
+    {
+        title:"Adventure"
+    },
+    {
+        title:"Sports"
+    },
+]
