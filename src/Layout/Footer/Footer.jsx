@@ -55,7 +55,7 @@ function Footer() {
       },
   ];
   return (
-    <div className="bg-dry py-4 border-t-2 border-black">
+    <div className="bg-dry py-4 md:px-10 border-t-2 border-black">
     <div className="container mx-auto px-2">
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 py-6">
         {Links.map((link, index) => (
@@ -73,7 +73,7 @@ function Footer() {
         ))}
         <div className="pb-3.5 sm:pb-0 col-span-1 ">
             <Link to='/'>
-                <img src="../../../public/cinemalogo.jpg" alt="logo" className=" object-contain h-12"/>
+                <img src="/movieHarbor.png" alt="logo" className=" object-contain h-16"/>
             </Link>
             <p className="leading-7 text-sm text-border mt-3">
                 <span>

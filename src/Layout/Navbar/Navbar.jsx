@@ -12,7 +12,7 @@ function Navbar() {
           <div className="col-span-1 lg:block hidden">
             <Link to="/">
               <img
-                src="../../../public/cinemalogo.jpg"
+                src="/cinemalogo.jpg"
                 alt="logo"
                 className="w-full h-12 object-contain"
               />
@@ -36,7 +36,7 @@ function Navbar() {
             </form>
           </div>
 
-          <div className="col-span-2 font-medium text-sm hidden xl:gap-10 2xl:gap-20 justify-between lg:flex xl:justify-center items-center">
+          <div className="col-span-3 font-medium text-sm hidden xl:gap-10 2xl:gap-20 justify-between lg:flex xl:justify-center items-center">
             <NavLink to="/movies" className={Hover}>
               Movies
             </NavLink>
